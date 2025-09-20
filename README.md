@@ -27,24 +27,17 @@
 
 ## 🚀 O‘rnatish
 
+```
+APK : https://t.me/Developer_blog_uz/149
+```
 1. Repository’ni klonlash:
 
 ```bash
 git clone https://github.com/username/untitled1.git
 cd untitled1
 
-Dependency’larni o‘rnatish:
-
-flutter pub get
-
-
-Hive uchun adapterlarni generatsiya qilish (agar kerak bo‘lsa):
-
-flutter packages pub run build_runner build --delete-conflicting-outputs
-
 
 Ilovani ishga tushirish:
-
 flutter run
 ```
 
