@@ -28,6 +28,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     final String? email = userBox.get('email');
 
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Text("Profile", style: TextStyle(color: Colors.white)),
         backgroundColor: Colors.deepOrange,

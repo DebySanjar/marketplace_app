@@ -105,11 +105,11 @@ class ProductCard extends StatelessWidget {
 
             // 🔹 Narx
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 6.0),
+              padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 2),
               child: Text(
                 "\$${product.price}",
                 style: const TextStyle(
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w700,
                   fontSize: 13,
                   color: Colors.deepOrange,
                 ),
