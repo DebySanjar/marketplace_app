@@ -1,16 +1,50 @@
-# untitled1
+# Marketplace Flutter App
 
-A new Flutter project.
+**Marketplace** - bu Flutter bilan yaratilgan birinchi mobil ilovam bo‘lib, foydalanuvchilarga mahsulotlarni ko‘rish, savatchaga qo‘shish va xarid qilish imkonini beradi. Ilova RestApi va **Hive** yordamida local data saqlaydi va `Like/Cart` funksiyasini taklif qiladi.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 Xususiyatlari
 
-A few resources to get you started if this is your first Flutter project:
+- Mahsulotlar ro‘yxati va tafsilotlari (title, description, price, rating)
+- Mahsulot rasmlari bilan **detail page**
+- Savatcha (Cart) funksiyasi: qo‘shish, o‘chirish, saqlash
+- Local database: **Hive** bilan offline saqlash
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+  ``` yaml
+  
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚙️ Texnologiyalar
+
+- Flutter & Dart
+- Hive (local database)
+- Provider (state management)
+- HTTP / API service
+- Material Design
+
+---
+
+## 🚀 O‘rnatish
+
+1. Repository’ni klonlash:
+
+```bash
+git clone https://github.com/username/untitled1.git
+cd untitled1
+
+Dependency’larni o‘rnatish:
+
+flutter pub get
+
+
+Hive uchun adapterlarni generatsiya qilish (agar kerak bo‘lsa):
+
+flutter packages pub run build_runner build --delete-conflicting-outputs
+
+
+Ilovani ishga tushirish:
+
+flutter run
+```
+
