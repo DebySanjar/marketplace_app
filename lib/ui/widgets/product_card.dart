@@ -24,8 +24,8 @@ class ProductCard extends StatelessWidget {
         );
       },
       child: Card(
-        elevation: 1,
-        shadowColor: Colors.redAccent,
+        elevation: 5,
+        shadowColor: Colors.orange,
         color: Colors.white,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
         child: Column(
@@ -56,8 +56,8 @@ class ProductCard extends StatelessWidget {
 
                   // Rating (yuqori o‘ng burchakda)
                   Positioned(
-                    top: 6,
-                    right: 6,
+                    top: 0,
+                    right: 0,
                     child: Container(
                       padding: const EdgeInsets.symmetric(
                         horizontal: 6,
@@ -80,7 +80,7 @@ class ProductCard extends StatelessWidget {
                             product.rating.toStringAsFixed(1), // ⭐ 4.5 kabi
                             style: const TextStyle(
                               color: Colors.white,
-                              fontSize: 12,
+                              fontSize: 11,
                               fontWeight: FontWeight.bold,
                             ),
                           ),

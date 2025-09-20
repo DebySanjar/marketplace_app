@@ -33,7 +33,8 @@ class _AddScreenState extends State<AddScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Foydalanuvchi qo'shish"),
+        titleTextStyle: TextStyle(color: Colors.white , fontSize: 18),
+        title:  Text("Foydalanuvchi qo'shish"),
         backgroundColor: Colors.deepOrange,
       ),
       body: SingleChildScrollView(
@@ -95,7 +96,7 @@ class _AddScreenState extends State<AddScreen> {
                 ),
               ),
               onPressed: _saveUser,
-              child: const Text("Saqlash" , ),
+              child: const Text("Saqlash" , style: TextStyle(color: Colors.white),),
             ),
           ],
         ),
