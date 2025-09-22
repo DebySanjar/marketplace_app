@@ -28,7 +28,7 @@
 ## 🚀 O‘rnatish
 
 ```
-APK : https://t.me/Developer_blog_uz/149
+APK : https://t.me/qidirsa_chiqadi/149
 ```
 1. Repository’ni klonlash:
 
